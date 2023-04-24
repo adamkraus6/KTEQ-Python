@@ -112,13 +112,11 @@ class SwearLog():
         self.entrySwear.grid(  column=0, row=1)
         self.buttonSubmit.grid(column=0, row=2)
 
-
         self.root.mainloop()
 
     def submit(self):
-
         self.prepData()
-        # Post to csv file and JSON file
+        # Post to csv file and JSON file (TODO: no json?)
         self.postJSON()
         self.postCSV()
 

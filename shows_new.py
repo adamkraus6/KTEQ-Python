@@ -24,12 +24,6 @@ class ShowFrame(object):
         self.descriptionFrame = ttk.Frame(self.root, borderwidth=5, relief="sunken")
         self.descriptionFrame.grid( column=0,  row=row+10, sticky=(tk.N, tk.E, tk.S))
 
-        # Create  Scrollbar, bind it to the lyrics
-        #self.scroll = ttk.Scrollbar(self.canvas)
-        #self.scroll.pack(side=tk.RIGHT, fill='y')
-        #self.scroll.grid( column=2, row=0, sticky="NSEW")
-        #self.canvas.configure(yscrollcommand = self.scroll.set)
-
         # Create Labels
         self.labelDate         = ttk.Label(self.frame, text="Show Date")
         self.labelStart        = ttk.Label(self.frame, text="Show Start Time (Military Time)")

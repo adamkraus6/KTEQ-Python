@@ -28,8 +28,6 @@ class LyricLog():
 
         self.buttonGenerate.grid(column=0, row=2)
 
-
-
         self.generateDefault()
 
         self.root.mainloop()

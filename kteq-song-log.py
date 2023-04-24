@@ -17,7 +17,6 @@ LOG_ID   = 0
 LOG_SONG = 1
 LOG_PSA  = 2
 
-
 def logSong(*args):
 	song     = songName.get()
 	artist   = songArtist.get()
@@ -71,7 +70,6 @@ def logID():
 
 	#update ticker
 	updateTicker(source=LOG_ID)
-
 
 def logPSA(*args):
 	show = showName.get()
@@ -145,7 +143,6 @@ def updateTicker(source=LOG_ID):
 	prevSong2composer_lbl.config(text=prevSong1composer_lbl.cget("text"))
 	prevSong2show_lbl.config(    text=prevSong1show_lbl.cget("text"))
 
-
 	if(source==LOG_ID):
 		prevSong1date_lbl.config(    text=date)
 		prevSong1time_lbl.config(    text=time)
@@ -170,7 +167,6 @@ def updateTicker(source=LOG_ID):
 
 
 def nowPlaying( source=LOG_ID ):
-
 	#Write to a file what song is currently playing (or what have you)
 	filename = 'nowPlaying.txt'
 	song     = songName.get()
@@ -209,7 +205,6 @@ def lyricLogDialog():
     ly = LyricLog()
 
 def swearLogDialog():
-
     date = prevSong1date_lbl.cget("text")
     time = prevSong1time_lbl.cget("text")
     song = prevSong1title_lbl.cget("text")
@@ -218,7 +213,6 @@ def swearLogDialog():
     show = prevSong1show_lbl.cget("text")
 
     sw = SwearLog(date,time,song,artist,composer,show)
-
 
 #create the window and title it
 root = Tk()
@@ -292,9 +286,6 @@ refreshShows  = ttk.Button(infoFrame, text="Refresh List", command=refreshShowLi
 swearLog      = ttk.Button(logoFrame, text="SWEAR LOG", command=swearLogDialog)
 lyricLog      = ttk.Button(logoFrame, text="SHOW LYRICS", command=lyricLogDialog)
 
-
-
-
 #place buttons
 logSong.grid(     column=2, row=4, sticky=(W, E))
 logPSA.grid(      column=2, row=3, sticky=(W, E))
@@ -303,15 +294,11 @@ refreshShows.grid(column=2, row=1, sticky=(N, W, E, S))
 swearLog.grid(column=0, row=3,rowspan=2,columnspan=2,sticky=(N, W, E, S))
 lyricLog.grid(column=0, row=1,rowspan=2,columnspan=2,sticky=(N, W, E, S))
 
-
-
-
 #Create labels
 songName_lbl     = ttk.Label(songFrame, text="Song Name:")
 songArtist_lbl   = ttk.Label(songFrame, text="Song Artist:")
 songComposer_lbl = ttk.Label(songFrame, text="Song Composer:")
 psa_lbl          = ttk.Label(psaFrame,  text="PSA Title:")
-
 
 #Create instructions labels
 howTo_Show_lbl = ttk.Label(infoFrame, text=instructions.show, wraplength=400)
@@ -398,6 +385,5 @@ prevSong5title_lbl.grid(   column=4,  row=4, columnspan=2, sticky=(W, E))
 prevSong5artist_lbl.grid(  column=6,  row=4, columnspan=2, sticky=(W, E))
 prevSong5composer_lbl.grid(column=8,  row=4, columnspan=2, sticky=(W, E))
 prevSong5show_lbl.grid(    column=10, row=4, columnspan=2, sticky=(W, E))
-
 
 root.mainloop()
