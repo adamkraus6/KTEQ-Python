@@ -6,7 +6,6 @@ import csv
 import datetime
 from PIL import ImageTk
 
-#imports
 import shows
 import psa
 import instructions

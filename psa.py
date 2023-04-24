@@ -15,10 +15,8 @@ class PSA(object):
         for psa in p['PSAs']:
             self.list.append(psa['title'])
 
-    #self.list.sort()
-
 if __name__ == '__main__':
-  print("Current PSAs in Rotation: ")
-  p = PSA()
-  for psa in p.list:
-    print(psa)
+	print("Current PSAs in Rotation: ")
+	p = PSA()
+	for psa in p.list:
+		print(psa)

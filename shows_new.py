@@ -1,20 +1,11 @@
 #!/usr/bin/python3
 
-import datetime
-import xml.etree.ElementTree as ET
 import json
 
 import tkinter as tk
 from tkinter import ttk
-from tkinter import messagebox
-
-from random import randint
 
 from collections import OrderedDict
-
-# ===========================================================================
-# Show list Class
-# ===========================================================================
 
 MONDAY    = 0
 TUESDAY   = 1
@@ -32,7 +23,6 @@ class ShowFrame(object):
         self.frame.grid( column=0,  row=row, sticky=(tk.N, tk.W, tk.E, tk.S))
         self.descriptionFrame = ttk.Frame(self.root, borderwidth=5, relief="sunken")
         self.descriptionFrame.grid( column=0,  row=row+10, sticky=(tk.N, tk.E, tk.S))
-
 
         # Create  Scrollbar, bind it to the lyrics
         #self.scroll = ttk.Scrollbar(self.canvas)
@@ -104,7 +94,6 @@ class ShowFrame(object):
         self.labelDescription.grid(column=0, row=0, sticky=(tk.N, tk.W))
 
         #Pack Entry Fields
-        #self.entryDate.grid(       column=1, row=1, sticky=(tk.N, tk.E, tk.S))
         self.menuDate.grid(         column=1, row=1, sticky=(tk.N, tk.E, tk.S))
         self.entryStart.grid(       column=1, row=2, sticky=(tk.N, tk.E, tk.S))
         self.entryEnd.grid(         column=1, row=3, sticky=(tk.N, tk.E, tk.S))
@@ -133,7 +122,6 @@ class ShowFrame(object):
             return json.load(data_file)
 
     def sortJSON(self):
-
         # Dumb script just to reorganize stuff
         id = 0
         x = self.loadJSON()
@@ -168,8 +156,6 @@ class ShowFrame(object):
 
 
     def newShow(self):
-        id = "{:0>4}".format(randint(0,9999))
-
         # Get entries
         j = self.loadJSON()
 
@@ -220,8 +206,6 @@ class ShowNew(object):
         self.mainFrame.grid( column=0,  row=0,  columnspan=6,  sticky=(tk.N, tk.W, tk.E, tk.S))
         self.sf = ShowFrame(self.root,1)
         self.root.mainloop()
-
-
 
 if __name__ == '__main__':
     s = ShowNew()

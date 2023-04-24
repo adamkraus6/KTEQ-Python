@@ -43,8 +43,6 @@ class SwearLog():
 
         self.varSwear     = tk.StringVar()
 
-        #print("Stuff",self.swearDate, self.swearTime, self.swearSong,self.swearArtist,self.swearComposer,self.swearShow)
-
         lList = []
         self.labelExplanation = ttk.Label(self.mainFrame, text="Log Swears for a song\n(This form assumes the song with swears was the most recently played track. Change if necessary.)")
         self.labelDate     = ttk.Label(self.mainFrame, text="Date: ")

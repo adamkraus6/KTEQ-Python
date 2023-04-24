@@ -1,12 +1,7 @@
 #!/usr/bin/python3
 
 import datetime
-import xml.etree.ElementTree as ET
 import json
-
-# ===========================================================================
-# Show list Class
-# ===========================================================================
 
 MONDAY    = 0
 TUESDAY   = 1
@@ -37,22 +32,6 @@ class Shows(object):
     self.fri.append("Free Play/Unscripted")
     self.sat.append("Free Play/Unscripted")
     self.sun.append("Free Play/Unscripted")
-
-    # No longer using xml after this update
-    """
-    # Gather all other shows from xml file
-    tree = ET.parse('shows.xml')
-    root = tree.getroot()
-    for date in root:
-        for show in date.findall('show'):
-            for status in show.findall('status'):
-                if status.text.upper() == "ACTIVE":
-                    self.addShow(show.attrib['name'], date.attrib['name'])
-                    # print("\t", show.attrib['name'])
-                    for aka in show.findall('aka'):
-                        self.addShow(aka.text, date.attrib['name'])
-                        # print("\t", aka.text)
-    """
 
     # Using JSON now :)
     with open('shows.json') as data_file:
