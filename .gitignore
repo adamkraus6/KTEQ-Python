@@ -1,5 +1,6 @@
 *.exe
 *.csv
+*.spec
 build
 nowPlaying.txt
 swear.json
