@@ -51,56 +51,56 @@ class Shows(object):
 
 		self.dayOfWeek()
 
-def addShow(self, show, date):
-	if date == "Monday":
-		self.mon.append(show)
-	elif date == "Tuesday":
-		self.tue.append(show)
-	elif date == "Wednesday":
-		self.wed.append(show)
-	elif date == "Thursday":
-		self.thu.append(show)
-	elif date == "Friday":
-		self.fri.append(show)
-	elif date == "Saturday":
-		self.sat.append(show)
-	elif date == "Sunday":
-		self.sun.append(show)
+	def addShow(self, show, date):
+		if date == "Monday":
+			self.mon.append(show)
+		elif date == "Tuesday":
+			self.tue.append(show)
+		elif date == "Wednesday":
+			self.wed.append(show)
+		elif date == "Thursday":
+			self.thu.append(show)
+		elif date == "Friday":
+			self.fri.append(show)
+		elif date == "Saturday":
+			self.sat.append(show)
+		elif date == "Sunday":
+			self.sun.append(show)
 
 
-def dayOfWeek(self):
-  	#clear list
-	self.list[:] = []
-	day = datetime.datetime.today().weekday()
-	if( day == MONDAY ):
-		self.list.append(self.mon)
-	elif( day == TUESDAY ):
-		self.list.append(self.tue)
-	elif( day == WEDNESDAY ):
-		self.list.append(self.wed)
-	elif( day == THURSDAY ):
-		self.list.append(self.thu)
-	elif( day == FRIDAY ):
-		self.list.append(self.fri)
-	elif( day == SATURDAY ):
-		self.list.append(self.sat)
-	elif( day == SUNDAY ):
-		self.list.append(self.sun)
+	def dayOfWeek(self):
+		#clear list
+		self.list[:] = []
+		day = datetime.datetime.today().weekday()
+		if( day == MONDAY ):
+			self.list.append(self.mon)
+		elif( day == TUESDAY ):
+			self.list.append(self.tue)
+		elif( day == WEDNESDAY ):
+			self.list.append(self.wed)
+		elif( day == THURSDAY ):
+			self.list.append(self.thu)
+		elif( day == FRIDAY ):
+			self.list.append(self.fri)
+		elif( day == SATURDAY ):
+			self.list.append(self.sat)
+		elif( day == SUNDAY ):
+			self.list.append(self.sun)
 
-	#Collapse list
-	self.list = [item for sublist in self.list for item in sublist]
+		#Collapse list
+		self.list = [item for sublist in self.list for item in sublist]
 
-def printFullSchedule(self):
-	print("Current KTEQ Shows: ")
-	for day in self.schedule:
-		for show in day:
+	def printFullSchedule(self):
+		print("Current KTEQ Shows: ")
+		for day in self.schedule:
+			for show in day:
+				print(show)
+
+	def printlistsSchedule(self):
+		print("Today's Schedule: ")
+		self.dayOfWeek()
+		for show in self.list:
 			print(show)
-
-def printlistsSchedule(self):
-	print("Today's Schedule: ")
-	self.dayOfWeek()
-	for show in self.list:
-		print(show)
 
 if __name__ == '__main__':
 	s = Shows()
