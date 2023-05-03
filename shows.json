@@ -1159,24 +1159,6 @@
         },
         {
             "id": "000065",
-            "show name": "test name",
-            "status": "Active",
-            "show date": "Sunday",
-            "start": "1:00",
-            "end": "2:00",
-            "length": "1",
-            "short": "test short desc",
-            "description": "test desc",
-            "djs": [
-                {
-                    "dj name": "test name",
-                    "dj email": "test@test.com",
-                    "dj type": "test type"
-                }
-            ]
-        },
-        {
-            "id": "000066",
             "show name": "Temporary Nostalgia",
             "status": "Active",
             "show date": "Tuesday",
