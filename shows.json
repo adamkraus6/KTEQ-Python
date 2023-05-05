@@ -2,83 +2,6 @@
     "shows": [
         {
             "id": "000000",
-            "show name": "New Show (7-9)",
-            "status": "Inactive",
-            "show date": "Monday",
-            "start": "07:00",
-            "end": "09:00",
-            "length": "2",
-            "short": "None",
-            "description": "None",
-            "djs": [
-                {
-                    "dj name": "Megan Johnson",
-                    "dj email": "mj@rapidcityonmain.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000001",
-            "show name": "The Waiting Roomz",
-            "status": "Active",
-            "show date": "Monday",
-            "start": "9:00",
-            "end": "11:00",
-            "length": "2",
-            "short": "None",
-            "description": "None",
-            "djs": [
-                {
-                    "dj name": "Tung Nguyen",
-                    "dj email": "tung.nguyen@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000002",
-            "show name": "Esoteric Bluegrass",
-            "status": "Active",
-            "show date": "Monday",
-            "start": "12:00",
-            "end": "15:00",
-            "length": "3",
-            "short": "None",
-            "description": "Bluegrass music for the true bluegrass fan. Includes gospel music from a local buddhist. Hosted by Nixon Kutz.",
-            "djs": [
-                {
-                    "dj name": "Cathy Kjar",
-                    "dj email": "rapidlapidary@gmail.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000003",
-            "show name": "The Budgie Smugglers",
-            "status": "Active",
-            "show date": "Monday",
-            "start": "15:00",
-            "end": "18:00",
-            "length": "3",
-            "short": "None",
-            "description": "Big things come in small packages. Like that casserole at the cafeteria: you'll like it. Funky groovy electro-pop indy-blues dancesurfgrassalicous (with a country twang)!",
-            "djs": [
-                {
-                    "dj name": "Sarah Watson",
-                    "dj email": "sarah.watson@mines.sdsmt.edu",
-                    "dj type": "student"
-                },
-                {
-                    "dj name": "Tony Gesualdo",
-                    "dj email": "anthony.gesualdo@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000004",
             "show name": "The Throwback Zone",
             "status": "Active",
             "show date": "Monday",
@@ -96,7 +19,7 @@
             ]
         },
         {
-            "id": "000005",
+            "id": "000001",
             "show name": "Monday Night Jazz Reflections",
             "status": "Active",
             "show date": "Monday",
@@ -114,184 +37,7 @@
             ]
         },
         {
-            "id": "000006",
-            "show name": "The Jambulance",
-            "status": "Active",
-            "show date": "Tuesday",
-            "start": "9:00",
-            "end": "12:00",
-            "length": "3",
-            "short": "None",
-            "description": "Playing all the best tracks freshly plucked from the music tree. A combination of Jon and Julian's clever wits, and sharp cuts make for an electric experience that will be fondly regarded in the music theory textbooks of the future.",
-            "djs": [
-                {
-                    "dj name": "Julian Brackins",
-                    "dj email": "julian.brackins@mines.sdsmt.edu",
-                    "dj type": "student"
-                },
-                {
-                    "dj name": "Jon Dixon",
-                    "dj email": "jonathan.dixon@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000007",
-            "show name": "The Left Side",
-            "status": "Active",
-            "show date": "Tuesday",
-            "start": "12:00",
-            "end": "14:00",
-            "length": "3",
-            "short": "None",
-            "description": "None",
-            "djs": [
-                {
-                    "dj name": "Ben LeBrun",
-                    "dj email": "benjamin.lebrun@mines.sdsmt.edu ",
-                    "dj type": "student"
-                },
-                {
-                    "dj name": "Brendan Lefevre",
-                    "dj email": "Brendan.lefevre@mines.sdsmt.edu ",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000008",
-            "show name": "After School Special",
-            "status": "Active",
-            "show date": "Tuesday",
-            "start": "15:00",
-            "end": "18:00",
-            "length": "3",
-            "short": "None",
-            "description": "PUNK ROCK",
-            "djs": [
-                {
-                    "dj name": "Wyatt Fenner",
-                    "dj email": "sodakfenners@gmail.com",
-                    "dj type": "community"
-                },
-                {
-                    "dj name": "Alec Ruml",
-                    "dj email": "alecruml123@gmail.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000009",
-            "show name": "Pop Culture Academy",
-            "status": "Active",
-            "show date": "Tuesday",
-            "start": "18:00",
-            "end": "21:00",
-            "length": "3",
-            "short": "None",
-            "description": "With host King Adkins. Examining all things pop culture with an academic slant.            ",
-            "djs": [
-                {
-                    "dj name": "King Adkins",
-                    "dj email": "King.Adkins@sdsmt.edu",
-                    "dj type": "faculty"
-                }
-            ]
-        },
-        {
-            "id": "000010",
-            "show name": "Voyage To The Precipice",
-            "status": "Active",
-            "show date": "Tuesday",
-            "start": "21:00",
-            "end": "00:00",
-            "length": "3",
-            "short": "None",
-            "description": "Eclectic, genre-spanning mix... but guaranteed to meet or exceed the minimum 6.66% recommended hourly amount of heavy metal.",
-            "djs": [
-                {
-                    "dj name": "Travis Brink",
-                    "dj email": "travis.brink@gmail.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000011",
-            "show name": "Twisted Love",
-            "status": "Active",
-            "show date": "Wednesday",
-            "start": "14:00",
-            "end": "15:00",
-            "length": "3",
-            "short": "None",
-            "description": "Indie and Alternative.",
-            "djs": [
-                {
-                    "dj name": "Mark Wathen",
-                    "dj email": "mark.wathen@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000012",
-            "show name": "Ultra Caffeinated",
-            "status": "Active",
-            "show date": "Wednesday",
-            "start": "15:00",
-            "end": "18:00",
-            "length": "3",
-            "short": "None",
-            "description": "Tune in to Anneka's super spazzy afternoon show for everything from grungy alternative rock to wacky electronic beats.",
-            "djs": [
-                {
-                    "dj name": "Anneka Swedlund",
-                    "dj email": "anneka.swedlund@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000013",
-            "show name": "CATastrophe",
-            "status": "Active",
-            "show date": "Wednesday",
-            "start": "18:00",
-            "end": "21:00",
-            "length": "3",
-            "short": "None",
-            "description": "Electroswing!",
-            "djs": [
-                {
-                    "dj name": "Cat Hafer",
-                    "dj email": "hafercat.26@gmail.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000014",
-            "show name": "The Recovery",
-            "status": "Inactive",
-            "show date": "Wednesday",
-            "start": "15:00",
-            "end": "18:00",
-            "length": "3",
-            "short": "None",
-            "description": "Capitan Carl brings 3 hours of Carribean Cool with a collection of Ska from every wave, reggae, and dancehall. SALSA OPTIONAL BUT RECOMMENDED.",
-            "djs": [
-                {
-                    "dj name": "Carl Holloman III",
-                    "dj email": "carl.holloman@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000015",
+            "id": "000002",
             "show name": "Left of the Dial",
             "status": "Active",
             "show date": "Thursday",
@@ -309,189 +55,7 @@
             ]
         },
         {
-            "id": "000016",
-            "show name": "House of Funk",
-            "status": "Active",
-            "show date": "Thursday",
-            "start": "12:00",
-            "end": "15:00",
-            "length": "3",
-            "short": "None",
-            "description": "DJ TKO's EDM mix of house, dubstep, trap, and various electronic delights.            ",
-            "djs": [
-                {
-                    "dj name": "Tony Kelly",
-                    "dj email": "ghostdogisking@gmail.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000017",
-            "show name": "Deep Wave",
-            "status": "Active",
-            "show date": "Thursday",
-            "start": "18:00",
-            "end": "21:00",
-            "length": "3",
-            "short": "None",
-            "description": "Dive in and get wet. Spend some time by the water and get sand in your crack with Brynn on Deep Wave.",
-            "djs": [
-                {
-                    "dj name": "Jen Evans",
-                    "dj email": "avalonuk72@gmail.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000018",
-            "show name": "Ckaos",
-            "status": "Active",
-            "show date": "Friday",
-            "start": "10:00",
-            "end": "12:00",
-            "length": "2",
-            "short": "None",
-            "description": "Ever wished you could have less control in your life? Wish no more! Ckaos is perfectly designed to make your Friday mornings unpredictable with our unorthodox music selection methods and synergized comedy segments (if the gremlins would stop breaking into the studio, that is).",
-            "djs": [
-                {
-                    "dj name": "Seth Petra",
-                    "dj email": "seth.petra@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000019",
-            "show name": "Bear Bacon",
-            "status": "Active",
-            "show date": "Friday",
-            "start": "12:00",
-            "end": "15:00",
-            "length": "3",
-            "short": "None",
-            "description": "weekly radio show Fridays from 12 to 3 MST hosted by @noimjory at KTEQ 91.3 in Rapid City, SD. Working hard to get exposure for lesser known artists and the music we love!",
-            "djs": [
-                {
-                    "dj name": "Jory Andre",
-                    "dj email": "giantjory99@hotmail.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000020",
-            "show name": "Skeletons Out Of The Closet",
-            "status": "Active",
-            "show date": "Friday",
-            "start": "15:00",
-            "end": "18:00",
-            "length": "3",
-            "short": "None",
-            "description": "Queer Horror Punk and Combinations of Those Words!",
-            "djs": [
-                {
-                    "dj name": "Rani Eimers",
-                    "dj email": "ranimeimers@gmail.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000021",
-            "show name": "The B-Side",
-            "status": "Active",
-            "show date": "Friday",
-            "start": "18:00",
-            "end": "21:00",
-            "length": "3",
-            "short": "None",
-            "description": "A little bit of everything from everywhere. Tune in to listen to tracks you might not have heard from your favorite artists or discover something new! Let the Hipster take you through a musical journey.",
-            "djs": [
-                {
-                    "dj name": "Christopher Fitzgerald",
-                    "dj email": "christopher.fitzgerald@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000022",
-            "show name": "Broken Record",
-            "status": "Active",
-            "show date": "Friday",
-            "start": "21:00",
-            "end": "00:00",
-            "length": "3",
-            "short": "None",
-            "description": "Variety and Talk Radio.",
-            "djs": [
-                {
-                    "dj name": "Hunter Joseph",
-                    "dj email": "hunter.joseph@mines.sdsmt.edu",
-                    "dj type": "student"
-                },
-                {
-                    "dj name": "Thomas LeVoir",
-                    "dj email": "thomas.levoir@mines.sdsmt.edu",
-                    "dj type": "student"
-                },
-                {
-                    "dj name": "Garrett Wibbels",
-                    "dj email": "garrett.wibbels@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000023",
-            "show name": "Purple Sweet Potato",
-            "status": "Active",
-            "show date": "Saturday",
-            "start": "08:00",
-            "end": "09:00",
-            "length": "3",
-            "short": "None",
-            "description": "An adventure into the musical abyss!",
-            "djs": [
-                {
-                    "dj name": "Abbey Larson",
-                    "dj email": "abbey.larson@mines.sdsmt.edu",
-                    "dj type": "community"
-                },
-                {
-                    "dj name": "Frank Torvik",
-                    "dj email": "frank.torvik@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000024",
-            "show name": "The Benny Griffith Show",
-            "status": "Active",
-            "show date": "Saturday",
-            "start": "9:00",
-            "end": "12:00",
-            "length": "3",
-            "short": "None",
-            "description": "None",
-            "djs": [
-                {
-                    "dj name": "Benjamin Titus",
-                    "dj email": "benjamin.titus1999@gmail.com",
-                    "dj type": "community"
-                },
-                {
-                    "dj name": "Griffin White",
-                    "dj email": "griffin210w@gmail.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000025",
+            "id": "000003",
             "show name": "Janitors of the Apocolypse",
             "status": "Active",
             "show date": "Saturday",
@@ -509,512 +73,7 @@
             ]
         },
         {
-            "id": "000026",
-            "show name": "Houston We Have A Problem",
-            "status": "Active",
-            "show date": "Saturday",
-            "start": "15:00",
-            "end": "18:00",
-            "length": "3",
-            "short": "None",
-            "description": "None",
-            "djs": [
-                {
-                    "dj name": "Houston Wagner",
-                    "dj email": "houston.wagner@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000027",
-            "show name": "Under the Tundra with Jason Ader",
-            "status": "Active",
-            "show date": "Saturday",
-            "start": "18:00",
-            "end": "21:00",
-            "length": "3",
-            "short": "None",
-            "description": "Broadcasting from Beneath Rapid City's Cultural Permafrost. Playing a mix of Rock, Punk, Hardcore, Metal, Post-Rock, Post-Punk, Post-Hardcore, Post-Metal, New-Wave, No-Wave, Power-Pop, Noise-Rock, Stoner, Sludge, Doom, Thrash, Psych-Rock, Space-Rock, Shoegaze, Prog, and Avant-Garde.",
-            "djs": [
-                {
-                    "dj name": "Jay Riley",
-                    "dj email": "jason_ader@yahoo.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000028",
-            "show name": "Prayers to the Transparent Kaleidoscope",
-            "status": "Active",
-            "show date": "Saturday",
-            "start": "21:00",
-            "end": "00:00",
-            "length": "3",
-            "short": "None",
-            "description": "Mostly obscure albums, compilations, singles, and anything else that makes your head bob.",
-            "djs": [
-                {
-                    "dj name": "Zane Cooper",
-                    "dj email": "zane.cooper@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000029",
-            "show name": "Good Morning With Herbmon",
-            "status": "Active",
-            "show date": "Sunday",
-            "start": "06:00",
-            "end": "09:00",
-            "length": "3",
-            "short": "None",
-            "description": "None.",
-            "djs": [
-                {
-                    "dj name": "Shawn Maddens",
-                    "dj email": "Skate4passion@gmail.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000030",
-            "show name": "Where The Beat At?!",
-            "status": "Active",
-            "show date": "Sunday",
-            "start": "21:00",
-            "end": "23:00",
-            "length": "2",
-            "short": "None",
-            "description": "Non-American music featuring individual countries!",
-            "djs": [
-                {
-                    "dj name": "Hannah Carroll",
-                    "dj email": "hannah.carroll@mines.sdsmt.edu",
-                    "dj type": "student"
-                },
-                {
-                    "dj name": "Dan Carroll",
-                    "dj email": "dannyboy.carroll@gmail.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000031",
-            "show name": "Wild Woman Radio",
-            "status": "Inactive",
-            "show date": "Sunday",
-            "start": "9:00",
-            "end": "12:00",
-            "length": "3",
-            "short": "None",
-            "description": "Music by Female Artists and Female Song Writers featuring Wild Woman Wisdom. Guest appearances by local Wild Women who live life on their own terms, Yogic Wisdom, and lots of beautiful music. The fearless pursuit of what sets our souls on fire.",
-            "djs": [
-                {
-                    "dj name": "Ashley Kiefer",
-                    "dj email": "rosewindow@gmail.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000032",
-            "show name": "Bro Jam",
-            "status": "Active",
-            "show date": "Sunday",
-            "start": "12:00",
-            "end": "15:00",
-            "length": "3",
-            "short": "None",
-            "description": "Electronica and eSports!",
-            "djs": [
-                {
-                    "dj name": "Lyndon Engel",
-                    "dj email": "lyndon.engel@mines.sdsmt.edu",
-                    "dj type": "student"
-                },
-                {
-                    "dj name": "Wyatt Engel",
-                    "dj email": "wyatt.engel@mines.sdsmt.edu",
-                    "dj type": "student"
-                }
-            ]
-        },
-        {
-            "id": "000033",
-            "show name": "The Rough Draft",
-            "status": "Active",
-            "show date": "Sunday",
-            "start": "15:00",
-            "end": "18:00",
-            "length": "3",
-            "short": "None",
-            "description": "If you enjoy listening to two kids talk about anything from inherent human emotion and actions to jazz and movies, tune into The Rough Draft with Eda and Caitlyn! You never know what you'll get, which is like an exciting grab-bag half filled with poison and barbed wire. Enjoy!",
-            "djs": [
-                {
-                    "dj name": "Eda Uzunlar",
-                    "dj email": "awesomeeda@gmail.com",
-                    "dj type": "community"
-                },
-                {
-                    "dj name": "Caitlyn Speier",
-                    "dj email": "speier_caitlyn@yahoo.com",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000034",
-            "show name": "The Sparrow",
-            "status": "Active",
-            "show date": "Sunday",
-            "start": "18:00",
-            "end": "21:00",
-            "length": "3",
-            "short": "None",
-            "description": "Topical talk and vintage vinyl. The Sparrow show on KTEQ combines great music with talking about some things that seem important. Join The Sparrow and his Chautauqua every Sunday night.",
-            "djs": [
-                {
-                    "dj name": "Dennis Halterman",
-                    "dj email": "thefactory@rap.midco.net",
-                    "dj type": "community"
-                }
-            ]
-        },
-        {
-            "id": "000035",
-            "show name": "Wednesday Night Jazz",
-            "status": "Active",
-            "show date": "Wednesday",
-            "start": "21:00",
-            "end": "00:00",
-            "length": "3",
-            "short": "Jazz Hits With your Boy Aidan",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Aidan Thornburg",
-                    "dj email": "heythereaidan99@gmail.com",
-                    "dj type": "Community"
-                }
-            ]
-        },
-        {
-            "id": "000036",
-            "show name": "Vitamin K",
-            "status": "Active",
-            "show date": "Friday",
-            "start": "1200",
-            "end": "1500",
-            "length": "3",
-            "short": "Indie/ Rock/ Electronic",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Kody Hanson",
-                    "dj email": "kody.hanson@mines.sdsmt.edu",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000037",
-            "show name": "1/0",
-            "status": "Active",
-            "show date": "Thursday",
-            "start": "1800",
-            "end": "1900",
-            "length": "1",
-            "short": "DJ Steez brings the funk",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Enzo Tessaro",
-                    "dj email": "enzo.tessaro@mines.sdsmt.edu",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000038",
-            "show name": "Indie @ 7",
-            "status": "Active",
-            "show date": "Thursday",
-            "start": "1900",
-            "end": "2000",
-            "length": "1",
-            "short": "Indie LOVE",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Taylor Wolff",
-                    "dj email": "taylorpwolff@gmail.com",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000039",
-            "show name": "LQG",
-            "status": "Active",
-            "show date": "Thursday",
-            "start": "2000",
-            "end": "2100",
-            "length": "1",
-            "short": "Jack gives you an hour-long assortment of hardcore, electropop, math rock, and whatever else comes to mind.",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "John Waters",
-                    "dj email": "john.waters@mines.sdsmt.edu",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000040",
-            "show name": "J. Waylon Radio Programme",
-            "status": "Active",
-            "show date": "Thursday",
-            "start": "2100",
-            "end": "0000",
-            "length": "3",
-            "short": "Maximum Rock n' Roll, Minimum Effort ",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "J. Waylon Miller",
-                    "dj email": "kitfoxrecordingco@gmail.com",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000041",
-            "show name": "The Show With No Name",
-            "status": "Active",
-            "show date": "Wednesday",
-            "start": "0900",
-            "end": "1200",
-            "length": "3",
-            "short": "",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Eric Meland",
-                    "dj email": "dragonfox159@gmail.com",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000042",
-            "show name": "Twisted Love",
-            "status": "Active",
-            "show date": "Wednesday",
-            "start": "1400",
-            "end": "1500",
-            "length": "1",
-            "short": "",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Mark Wathen",
-                    "dj email": "mark.wathen@mines.sdsmt.edu",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000043",
-            "show name": "Quack it up",
-            "status": "Active",
-            "show date": "Tuesday",
-            "start": "1200",
-            "end": "1500",
-            "length": "3",
-            "short": "with DJ duck",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Tanner Colpitts",
-                    "dj email": "tanner.colpitts",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000044",
-            "show name": "Ragtime",
-            "status": "Active",
-            "show date": "Tuesday",
-            "start": "1700",
-            "end": "1900",
-            "length": "2",
-            "short": "",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Madeline Arnold",
-                    "dj email": "madejewel10@gmail.com",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000045",
-            "show name": "DeTox",
-            "status": "Active",
-            "show date": "Tuesday",
-            "start": "0900",
-            "end": "1000",
-            "length": "1",
-            "short": "Stress isn't a fun thing to deal with but everybody has to in some form. To help out, DeTox is bringing you some chill tunes to mellow out and enjoy.",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Gunnar Tucholke",
-                    "dj email": "gunnar.tucholke@mines.sdsmt.edu",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000046",
-            "show name": "SYFY",
-            "status": "Active",
-            "show date": "Tuesday",
-            "start": "1400",
-            "end": "1500",
-            "length": "1",
-            "short": "SYFY PHILOSOPHY and SOUNDTRACKS",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Nathan Wise",
-                    "dj email": "nathan.wise@mines.sdsmt.edu",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000047",
-            "show name": "Neon Narwhal",
-            "status": "Active",
-            "show date": "Saturday",
-            "start": "0000",
-            "end": "0200",
-            "length": "2",
-            "short": "An eclectic mix of music from a variety of genres with a different theme each week!",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Madigan Cochran",
-                    "dj email": "madigan.cochran@mines.sdsmt.edu",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000048",
-            "show name": "Lo-Fi & Metal Midnight Special",
-            "status": "Active",
-            "show date": "Thursday",
-            "start": "0000",
-            "end": "0300",
-            "length": "3",
-            "short": "DJ Mech gives you distorted loud music",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Owen Mechling",
-                    "dj email": "owen.mechling@mines.sdsmt.edu",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000049",
-            "show name": "Punk for the Misunderstood",
-            "status": "Active",
-            "show date": "Thursday",
-            "start": "1500",
-            "end": "1700",
-            "length": "2",
-            "short": "90's to 2000s punk rock",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Catherine Hastings",
-                    "dj email": "hastings949@gmail.com",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000050",
-            "show name": "Tralfamadorian Review",
-            "status": "Active",
-            "show date": "Sunday",
-            "start": "1300",
-            "end": "1500",
-            "length": "2",
-            "short": "",
-            "description": "",
-            "djs": [
-                {
-                    "dj name": "Eda",
-                    "dj email": "awesomeeda@gmail.com",
-                    "dj type": ""
-                }
-            ]
-        },
-        {
-            "id": "000051",
-            "show name": "ACK!",
-            "status": "Active",
-            "show date": "Sunday",
-            "start": "14:00",
-            "end": "16:00",
-            "length": "2",
-            "short": "Unrestrained, uncontrolled, unbridled energy-w00ps",
-            "description": "Unrestrained, uncontrolled, unbridled energy-w00ps",
-            "djs": [
-                {
-                    "dj name": "Anneka Swedlund",
-                    "dj email": "anneka.swedlund@mines.sdsmt.edu",
-                    "dj type": "Student"
-                },
-                {
-                    "dj name": "Chris Fitzgerald",
-                    "dj email": "chris.fitzgerald@mines.sdsmt.edu",
-                    "dj type": "Student"
-                },
-                {
-                    "dj name": "Kody Hanson",
-                    "dj email": "kody.hanson@mines.sdsmt.edu",
-                    "dj type": "Student"
-                }
-            ]
-        },
-        {
-            "id": "000052",
-            "show name": "After School Special",
-            "status": "Active",
-            "show date": "Monday",
-            "start": "16:00",
-            "end": "18:00",
-            "length": "",
-            "short": "",
-            "description": "",
-            "djs": []
-        },
-        {
-            "id": "000053",
+            "id": "000004",
             "show name": "Bring The Pogo",
             "status": "Active",
             "show date": "Sunday",
@@ -1026,115 +85,7 @@
             "djs": []
         },
         {
-            "id": "000054",
-            "show name": "Music A La Carte",
-            "status": "Active",
-            "show date": "Sunday",
-            "start": "16:00",
-            "end": "18:00",
-            "length": "",
-            "short": "",
-            "description": "",
-            "djs": []
-        },
-        {
-            "id": "000055",
-            "show name": "Close To The Edge",
-            "status": "Active",
-            "show date": "Wednesday",
-            "start": "19:00",
-            "end": "20:00",
-            "length": "",
-            "short": "",
-            "description": "",
-            "djs": []
-        },
-        {
-            "id": "000056",
-            "show name": "Braille radio Hour/ Aplus Radio Hour",
-            "status": "Active",
-            "show date": "Wednesday",
-            "start": "21:00",
-            "end": "0:00",
-            "length": "",
-            "short": "",
-            "description": "",
-            "djs": []
-        },
-        {
-            "id": "000057",
-            "show name": "Freedom of Choice",
-            "status": "Active",
-            "show date": "Thursday",
-            "start": "9:00",
-            "end": "12:00",
-            "length": "",
-            "short": "",
-            "description": "",
-            "djs": []
-        },
-        {
-            "id": "000058",
-            "show name": "Left of The Dial",
-            "status": "Active",
-            "show date": "Friday",
-            "start": "9:00",
-            "end": "12:00",
-            "length": "",
-            "short": "",
-            "description": "",
-            "djs": []
-        },
-        {
-            "id": "000059",
-            "show name": "The LP Lunch Hour",
-            "status": "Active",
-            "show date": "Monday",
-            "start": "12:00",
-            "end": "13:00",
-            "length": "",
-            "short": "",
-            "description": "",
-            "djs": []
-        },
-        {
-            "id": "000060",
-            "show name": "The LP Lunch Hour",
-            "status": "Active",
-            "show date": "Friday",
-            "start": "12:00",
-            "end": "13:00",
-            "length": "",
-            "short": "",
-            "description": "",
-            "djs": []
-        },
-        {
-            "id": "000061",
-            "show name": "Litttle Spice for Your Life",
-            "status": "Active",
-            "show date": "Friday",
-            "start": "13:00",
-            "end": "14:00",
-            "length": "",
-            "short": "",
-            "description": "",
-            "djs": []
-        },
-        {
-            "id": "000062",
-            "show name": "Close to the Edge",
-            "status": "Active",
-            "show date": "Friday",
-            "start": "19:00",
-            "end": "21:00",
-            "length": "",
-            "short": "",
-            "description": "",
-            "djs": []
-        },
-        {
-            "id": "000063",
+            "id": "000005",
             "show name": "The Cult",
             "status": "Active",
             "show date": "Friday",
@@ -1146,19 +97,7 @@
             "djs": []
         },
         {
-            "id": "000064",
-            "show name": "Hot Take",
-            "status": "Active",
-            "show date": "Thursday",
-            "start": "16:00",
-            "end": "18:00",
-            "length": "",
-            "short": "",
-            "description": "",
-            "djs": []
-        },
-        {
-            "id": "000065",
+            "id": "000006",
             "show name": "Temporary Nostalgia",
             "status": "Active",
             "show date": "Tuesday",
@@ -1167,13 +106,151 @@
             "length": "3",
             "short": "",
             "description": "",
-            "djs": [
-                {
-                    "dj name": "Cecilia",
-                    "dj email": "",
-                    "dj type": ""
-                }
-            ]
+            "djs": []
+        },
+        {
+            "id": "000007",
+            "show name": "Roggoidian Radio",
+            "status": "Active",
+            "show date": "Sunday",
+            "start": "13:00",
+            "end": "14:00",
+            "length": "1",
+            "short": "",
+            "description": "",
+            "djs": []
+        },
+        {
+            "id": "000008",
+            "show name": "Will's Magic Broadcast",
+            "status": "Active",
+            "show date": "Tuesday",
+            "start": "9:00",
+            "end": "11:00",
+            "length": "2",
+            "short": "",
+            "description": "",
+            "djs": []
+        },
+        {
+            "id": "000009",
+            "show name": "Mirage's NightTime Groovies",
+            "status": "Active",
+            "show date": "Sunday",
+            "start": "20:00",
+            "end": "21:00",
+            "length": "1",
+            "short": "",
+            "description": "",
+            "djs": []
+        },
+        {
+            "id": "000010",
+            "show name": "Avocado Green",
+            "status": "Active",
+            "show date": "Monday",
+            "start": "15:00",
+            "end": "18:00",
+            "length": "3",
+            "short": "",
+            "description": "",
+            "djs": []
+        },
+        {
+            "id": "000011",
+            "show name": "Shawn and Jeff",
+            "status": "Active",
+            "show date": "Wednesday",
+            "start": "18:00",
+            "end": "21:00",
+            "length": "3",
+            "short": "",
+            "description": "",
+            "djs": []
+        },
+        {
+            "id": "000012",
+            "show name": "Elsewhere",
+            "status": "Active",
+            "show date": "Thursday",
+            "start": "19:00",
+            "end": "21:00",
+            "length": "2",
+            "short": "",
+            "description": "",
+            "djs": []
+        },
+        {
+            "id": "000013",
+            "show name": "Who's on Aux",
+            "status": "Active",
+            "show date": "Thursday",
+            "start": "17:00",
+            "end": "18:00",
+            "length": "1",
+            "short": "",
+            "description": "",
+            "djs": []
+        },
+        {
+            "id": "000014",
+            "show name": "Kirby",
+            "status": "Active",
+            "show date": "Friday",
+            "start": "17:00",
+            "end": "18:00",
+            "length": "1",
+            "short": "",
+            "description": "",
+            "djs": []
+        },
+        {
+            "id": "000015",
+            "show name": "The Whatever Place",
+            "status": "Active",
+            "show date": "Friday",
+            "start": "19:00",
+            "end": "21:00",
+            "length": "2",
+            "short": "",
+            "description": "",
+            "djs": []
+        },
+        {
+            "id": "000016",
+            "show name": "The Cult",
+            "status": "Active",
+            "show date": "Saturday",
+            "start": "0:00",
+            "end": "2:00",
+            "length": "2",
+            "short": "",
+            "description": "",
+            "djs": []
+        },
+        {
+            "id": "000017",
+            "show name": "Lucas/Campbell",
+            "status": "Active",
+            "show date": "Saturday",
+            "start": "15:00",
+            "end": "17:00",
+            "length": "2",
+            "short": "",
+            "description": "",
+            "djs": []
+        },
+        {
+            "id": "000018",
+            "show name": "Killer Beats",
+            "status": "Active",
+            "show date": "Saturday",
+            "start": "17:00",
+            "end": "18:00",
+            "length": "1",
+            "short": "",
+            "description": "",
+            "djs": []
         }
     ]
 }
